@@ -2,7 +2,7 @@
 """
 Created on 2021年7月20日
 
-@author: WuGS
+@author: wwp
 数据库配置相关
 """
 import os
@@ -12,7 +12,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:123456@localhost:5432/contentchain"
+SQLALCHEMY_DATABASE_URL = ""
 
 # echo=True表示引擎将用repr()函数记录所有语句及其参数列表到日志
 engine = create_engine(
