@@ -2,7 +2,7 @@
 """
 Created on 2021年7月20日
 
-@author: WuGS
+@author: wwp
 模型验证
 """
 import os
